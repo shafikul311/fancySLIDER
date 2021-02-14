@@ -125,8 +125,8 @@ searchBtn.addEventListener('click', function () {
     displayImg();
 });
 
-search.addEventListener('keyup', function (e) {
-    if (e.keyCode === 13) {
+search.addEventListener('keyup', function (event) {
+    if (event.keyCode === 13) {
         displayImg();
     }
 });
