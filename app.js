@@ -145,7 +145,6 @@ sliderBtn.addEventListener('click', function () {
 
 const toggleSpinner = () => {
     const spinner = document.getElementById('loader-spinner').classList;
-   
     const imagesArea = document.querySelector('.images').classList;
     spinner.toggle('d-none');
     imagesArea.toggle('d-none');
